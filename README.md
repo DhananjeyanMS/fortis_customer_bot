@@ -46,34 +46,34 @@ This project creates **Kasia**, a virtual assistant for **Fortis Marketing Agenc
 
 ## Environment Variables:
 1. **Create a .env file with:**
-OPENAI_API_KEY=<your_openai_api_key>
-ASSISTANT_ID=
-VECTOR_STORE_ID=
+  - OPENAI_API_KEY=<your_openai_api_key>
+  - ASSISTANT_ID=
+  - VECTOR_STORE_ID=
 
 ## Setup and Usage
 1. **Clone the Repository**
-git clone <repository-url>
-cd <repository-folder>
+  - git clone <repository-url>
+  - cd <repository-folder>
 
 2. **Install Dependencies**
-pip install -r requirements.txt
+  - pip install -r requirements.txt
 
 4. **Configure Environment**
-Create a .env file:
-OPENAI_API_KEY=<your_openai_api_key>
+  - Create a .env file:
+  - OPENAI_API_KEY=<your_openai_api_key>
 
 5. **Prepare Data Files**
-Place the promotional and service-related files in the project directory or update their paths in createassistant.py.
+  - Place the promotional and service-related files in the project directory or update their paths in createassistant.py.
 
 6. **Initialize the Assistant**
-Run the createassistant.py script to set up the assistant and upload files:
-python createassistant.py
+  - Run the createassistant.py script to set up the assistant and upload files:
+  - python createassistant.py
 
 7. **Launch the Application**
-Run the run.py script to start the Streamlit interface:
-streamlit run run.py
-Open the provided URL in your browser to interact with Kasia.
-
+  - Run the run.py script to start the Streamlit interface:
+  - streamlit run run.py
+  - Open the provided URL in your browser to interact with Kasia.
+   
 ## Assistant Capabilities
 
 ### User Queries
